@@ -1,0 +1,25 @@
+.Collapseslogements{
+    width: 100%;
+height: auto;
+margin: auto;
+margin-top: 31px;
+display: flex;
+justify-content: space-between;
+}
+
+.collapse1{
+   
+    width: 45%;
+}
+
+.equip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.listeequip{
+margin: 0;
+
+}

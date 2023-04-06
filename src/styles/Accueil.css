@@ -1,0 +1,15 @@
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+}
+
+.textephoto{
+    font-size: 48px;
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}

@@ -1,0 +1,44 @@
+.Cards{
+    width: 100%;
+    background: #F7F7F7;
+border-radius: 25px;
+margin: auto;
+margin-top: 43px;
+}
+
+.positionGrille{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding: 56px 50px 56px 50px;
+column-gap: 60px;
+row-gap: 60px;
+}
+
+.photo{
+border-radius: 10px;
+width: 100%;
+height: 340px;
+background: rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.titrephoto{
+position: relative;
+top:280px;
+left: 10px;
+margin: 0px;
+font-family: 'Montserrat';
+font-size: 18px;
+line-height: 142.6%;
+color: #FFFFFF;
+width: 90%;
+outline: none;
+}
+
+
+.Cards a:link{
+    text-decoration: none;
+}

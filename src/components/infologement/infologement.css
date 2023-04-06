@@ -1,0 +1,81 @@
+.title{
+    font-family: 'Montserrat';
+font-weight: 500;
+font-size: 36px;
+display: flex;
+color: #FF6060;
+}
+
+.displaystack1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location{
+    font-family: 'Montserrat';
+font-weight: 500;
+font-size: 18px;
+display: flex;
+color: #FF6060;
+}
+
+.tags{
+    display: flex;
+}
+
+.tag{
+    background: #FF6060;
+border-radius: 10px;
+padding:10px;
+margin-right: 10px;
+height: 25px;
+display: flex;
+align-items: center;
+}
+
+.host{
+    display: flex;
+    flex-direction: row;
+}
+
+.hostname{
+    font-family: 'Montserrat';
+font-weight: 500;
+font-size: 18px;
+display: flex;
+color: #FF6060;
+width: min-content;
+margin: 10px;
+}
+
+.hostpictures{
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+}
+
+.htag{
+    margin: auto;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.etoilespleine{
+    width: 25px;
+    padding-right: 15px;
+}
+
+.etoilesvide{
+    width: 25px;
+    padding-right: 15px;
+}
+
+.displaystack2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

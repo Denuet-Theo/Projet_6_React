@@ -1,0 +1,22 @@
+.blocfooter{
+    background-color: black;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.positionnement{
+    display: flex;
+    flex-direction: column;
+}
+
+.logokasa{
+    margin: auto;
+    width: 150px;
+    margin-top: 40px;
+}
+
+.txtfooter{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
