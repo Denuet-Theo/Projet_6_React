@@ -6,7 +6,7 @@ import styles from'./Navbar.module.css';
 export default function Navbar(){
     return (
        <div className={styles.Banner}>
-        <img src={Kasa} alt="Logo du site web Kasa" />
+        <img src={Kasa} alt="Logo du site web Kasa" className={styles.img}/>
        
        
         <nav>

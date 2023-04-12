@@ -13,3 +13,24 @@ section{
     text-align: center;
     color: #ffffff;
 }
+
+@media screen and (max-width: 800px) {
+
+section{
+    margin: 0px 20px
+}
+
+ .textephoto{
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 190px;
+    top: 75px;
+    padding-left: 16px;
+ }  
+
+
+
+
+}

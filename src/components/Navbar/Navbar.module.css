@@ -23,3 +23,26 @@
     line-height: 142.6%;
     padding-left: 57px;
 }
+
+@media screen and (max-width: 800px) {
+
+    .Banner{
+        margin: 40px 20px 68px 20px;
+    }
+
+    .Navigation{
+        padding-left: 0px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    
+    .Navigationactive{
+        margin-right: 10px;
+        padding-left: 0px;
+        font-size: 12px;
+    }
+
+    .img{
+        width: 150px;
+    }
+}

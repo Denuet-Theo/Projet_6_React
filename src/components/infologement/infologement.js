@@ -13,22 +13,22 @@ export default function Affichageappart(props){
 
             <div className="displaystack1">
                 <h1 className="title">{props.title}</h1>
-                <div className="host">
-                    <h4 className="hostname">{props.hostName}</h4>
-                    <img className="hostpictures" src={props.hostPicture} alt={props.hostName} />
-                </div>
-            </div>
-
-            <h2 className="location">{props.location}</h2>
-            
-            <div className="displaystack2">
-
+                    <h2 className="location">{props.location}</h2>
                 <div className="tags">
                     {props.tags.map((tag) => (
                         <div className="tag" key={tag}>
                             <h2 className="htag">{tag}</h2>
                         </div>))}
                 </div>
+            </div>
+
+            
+            <div className="displaystack2">
+                <div className="host">
+                    <h4 className="hostname">{props.hostName}</h4>
+                    <img className="hostpictures" src={props.hostPicture} alt={props.hostName} />
+                </div>
+
 
                 <div className="rating">
                     <p>

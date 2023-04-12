@@ -5,8 +5,11 @@ import { useLocation } from 'react-router-dom';
 import Affichageimage from '../components/Slider/Slider';
 import Collapselogement from '../components/Collapselogement/Collapselogement';
 
+
+
 export default function Fichelogement(){
     const Location = useLocation();
+    
     console.log(Location)
     return (
         
@@ -28,7 +31,7 @@ export default function Fichelogement(){
                 rating={contents.rating}
                 />     
 
-                <Collapselogement
+                <Collapselogement 
                 description={contents.description}
                 equipments={contents.equipments}
                 />

@@ -1,6 +1,6 @@
 import React from 'react'
-import Collapse from '../Collapse/Collapse'
-import styles from "../Collapselogement/Collapselogement.module.css"
+import Collapselog from './Collapselog'
+import  "../Collapselogement/Collapselogement.css"
 
 
 
@@ -8,21 +8,23 @@ import styles from "../Collapselogement/Collapselogement.module.css"
 export default function Collapselogement(props){
     return (
 
-        <div className={styles.Collapseslogements}>
-            <div className={styles.collapse1}>
-            <Collapse title="Description" 
+        <div className="Collapseslogements">
+           
+            <div className="collapse1">
+            <Collapselog title="Description" 
             content={props.description} />
             </div>
 
-            <div className={styles.collapse1}>
-            <Collapse
+            <div className="collapse1">
+            <Collapselog 
                     title="Équipements"
                     content={
-                        <div className={styles.equip}>{props.equipments.map((equipment) => (
-                            <p className={styles.listeequip} key={equipment}>{equipment}</p>
+                        <div className="equip">{props.equipments.map((equipment) => (
+                            <p className="listeequip" key={equipment}>{equipment}</p>
                         ))}
                         </div>}
                 />
                 </div>
+                
        </div>
     )};
