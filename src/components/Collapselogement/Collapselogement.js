@@ -6,6 +6,7 @@ import  "../Collapselogement/Collapselogement.css"
 
 
 export default function Collapselogement(props){
+    console.log(props)
     return (
 
         <div className="Collapseslogements">

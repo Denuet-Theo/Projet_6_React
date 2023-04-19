@@ -1,12 +1,12 @@
 import React from 'react'
 import Collapse from '../components/Collapse/Collapse'
 import imgfondbanner from '../../src/assets/imgfondapropos.png'
-import "../styles/Banner.css"
+import "../styles/Accueil.css"
 
 export default function Apropos(){
     return (
         <section>
-            <div className='cadreaccueil' style={{backgroundImage : `url(${imgfondbanner})`}}  alt={"fond"} tabIndex="0">
+            <div className='banner' style={{backgroundImage : `url(${imgfondbanner})`}}  alt={"fond"} tabIndex="0">
 
             </div>
            

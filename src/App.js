@@ -5,7 +5,7 @@ import Error from "./Pages/Error";
 import Fichelogement from "./Pages/Fichelogement";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer"
-import liste from "./données/liste.json"
+import liste from "./Donnees/liste.json"
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
 
         <Route path="/a-propos" element={<Apropos />} />
 
-        {liste.map((contents) => (
-          <Route key={`${contents.id}`} path={`/fiche-logement/${contents.id}`} element={<Fichelogement />} />
+        {liste.map((content) => (
+          <Route key={`${content.id}`} path={`/fiche-logement/${content.id}`} element={<Fichelogement />} />
         ))}
 
         <Route path="*" element={<Error />} />

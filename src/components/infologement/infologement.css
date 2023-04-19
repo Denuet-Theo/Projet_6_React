@@ -8,7 +8,7 @@ margin-bottom: 0px;
 
 }
 
-.Touteslesdonnées{
+.Touteslesdonnees{
     display: flex;
     justify-content: space-between;
     text-align: end;
@@ -97,7 +97,7 @@ margin: 10px;
 
 @media screen and (max-width: 800px) {
 
-    .Touteslesdonnées{
+    .Touteslesdonnees{
         flex-direction: column;
     }
 

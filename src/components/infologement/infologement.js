@@ -9,7 +9,7 @@ export default function Affichageappart(props){
 
     return(
         
-        <div className="Touteslesdonnées">
+        <div className="Touteslesdonnees">
 
             <div className="displaystack1">
                 <h1 className="title">{props.title}</h1>
