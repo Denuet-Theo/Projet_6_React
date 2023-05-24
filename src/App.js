@@ -5,7 +5,7 @@ import Error from "./Pages/Error";
 import Fichelogement from "./Pages/Fichelogement";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer"
-import liste from "./Donnees/liste.json"
+
 
 function App() {
   return (
@@ -18,9 +18,9 @@ function App() {
 
         <Route path="/a-propos" element={<Apropos />} />
 
-        {liste.map((content) => (
-          <Route key={`${content.id}`} path={`/fiche-logement/${content.id}`} element={<Fichelogement />} />
-        ))}
+        
+        <Route path={`/fiche-logement/:id`} element={<Fichelogement />} />
+        
 
         <Route path="*" element={<Error />} />
 

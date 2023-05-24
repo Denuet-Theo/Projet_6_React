@@ -3,7 +3,7 @@ import etoilevide from "../../assets/star-solidvide.svg"
 import "./infologement.css"
 
 
-export default function Affichageappart(props){
+export default function Infologement(props){
     const fullstars = Array(5).fill(etoilepleine)
     const nullstars = Array(5).fill(etoilevide)
 

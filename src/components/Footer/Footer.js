@@ -8,6 +8,7 @@ export default function Footer(){
     
 
     return(
+        <footer>
        <div className="blocfooter">
             <div className="positionnement">
                 <img className='logokasa' src={logo} alt='logo kasa' />
@@ -15,5 +16,6 @@ export default function Footer(){
             </div>
 
        </div>
+       </footer>
     )
 }

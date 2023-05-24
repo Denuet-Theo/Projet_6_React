@@ -71,11 +71,45 @@
       }
     
 
+    .collapseLogement{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 31px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dimensionCollapse{
+        width: 45%;
+    }
+
+    .equip{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    
+    .listeequip{
+    margin: 0;
+    }
+
       @media screen and (max-width: 800px) {
 
         .Collapses{
             width: 100%;
-            
-            }
+        }
+
+        .collapseLogement{
+            display: flex;
+            flex-direction: column;
+           } 
+        
+           .dimensionCollapse{
+            width: 100%;
+           }
 
       }
+
+     
